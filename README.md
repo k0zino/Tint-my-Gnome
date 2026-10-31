@@ -1,6 +1,13 @@
 # Tint-my-Gnome
 A modern GNOME Shell extension to tint your Gnome Shell and LibAdwaita Apps
 
+> **This is a fork of [pakovm-git/Tint-my-Gnome](https://github.com/pakovm-git/Tint-my-Gnome)
+> with GNOME Shell 51 support.**
+>
+> The port adds `"51"` to `shell-version`, regenerates the Shell stylesheet from
+> GNOME Shell 51's stock dark theme (with the accent tint preserved), and was
+> verified against GTK 4.24 / libadwaita 1.10.
+
 Tint my Gnome is an all-in-one GNOME extension that brings a unified, harmonious accent color to your entire desktop. By merging the power of [Adwaita Accent Tint](https://github.com/pakovm-git/Adwaita-Accent-Tint) and [Tinted Shell](https://github.com/pakovm-git/tinted-shell), this extension seamlessly tints both the GNOME Shell and LibAdwaita applications with the color of your choice.
 
 

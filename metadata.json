@@ -5,9 +5,10 @@
     "shell-version": [
         "48",
         "49",
-        "50"
+        "50",
+        "51"
     ],
     "url": "https://github.com/pakovm-git/Tint-my-Gnome",
     "settings-schema": "org.gnome.shell.extensions.tint-my-gnome",
-    "version": 20260317
+    "version": 20261101
 }
