@@ -1,11 +1,10 @@
 {
-    "uuid": "tint-my-gnome@pakovm",
-    "name": "Tint my Gnome",
-    "description": "A modern GNOME Shell extension to tint your Gnome Shell and LibAdwaita Apps",
+    "uuid": "tint-my-gnome-51@k0zino",
+    "name": "Tint my Gnome 51",
+    "description": "Tints GNOME Shell 51 and libadwaita/GTK4 apps with the system accent color. Fork of PakoVM's Tint my Gnome.",
     "shell-version": [
         "51"
     ],
-    "url": "https://github.com/pakovm-git/Tint-my-Gnome",
-    "settings-schema": "org.gnome.shell.extensions.tint-my-gnome",
-    "version": 20261101
+    "url": "https://github.com/k0zino/Tint-my-Gnome/tree/ego-51",
+    "version": 1
 }

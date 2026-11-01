@@ -6,7 +6,6 @@ import { ExtensionPreferences } from 'resource:///org/gnome/Shell/Extensions/js/
 
 export default class TintMyGnomePreferences extends ExtensionPreferences {
     fillPreferencesWindow(window) {
-        const settings = this.getSettings();
         const page = new Adw.PreferencesPage();
 
         // 1. Settings Group
@@ -69,8 +68,16 @@ export default class TintMyGnomePreferences extends ExtensionPreferences {
         });
         page.add(donateGroup);
 
+        const creditText = new Gtk.Label({
+            label: 'Original project: github.com/pakovm-git/Tint-my-Gnome',
+            justify: Gtk.Justification.CENTER,
+            wrap: true,
+            margin_bottom: 12,
+        });
+        donateGroup.add(creditText);
+
         const donateText = new Gtk.Label({
-            label: 'Send some Bitcoin over Lightning to: pakovm@getalby.com',
+            label: 'Support the original author, PakoVM, via Lightning: pakovm@getalby.com',
             justify: Gtk.Justification.CENTER,
             wrap: true,
             margin_bottom: 12,

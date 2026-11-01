@@ -4,8 +4,6 @@ import { Extension } from 'resource:///org/gnome/shell/extensions/extension.js';
 
 export default class TintMyGnomeExtension extends Extension {
     enable() {
-        this._settings = this.getSettings();
-
         // Setup GTK4 styling backup & symlink
         const configDir = GLib.get_user_config_dir();
         const gtk4Dir = Gio.File.new_for_path(GLib.build_filenamev([configDir, 'gtk-4.0']));
